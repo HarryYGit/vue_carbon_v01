@@ -13,9 +13,13 @@
     </svg>
   </div>
   <router-view v-else></router-view>
+
 </template>
 
 <script>
+
+
+
 
 
 
@@ -26,6 +30,9 @@ export default {
     return {
       loading: true,
     }
+  },
+  components:{
+
   },
   watch: {
     '$route'() {
