@@ -13,13 +13,21 @@ export var menuItems={
       "badgeType": "light-primary",
       "badgeValue": "5",
       "active": false,
-      // "children": [
-      //   {
-      //     "path": "/",
-      //     "title": "Default",
-      //     "type": "link",
-      //     "active":false
-      //   },
+      "children": [
+        {
+          "path": "/",
+          "title": "Default",
+          "type": "link",
+          "active":false
+        },
+        {
+          "path": "/about",
+          "title": "About",
+          "icon": "stroke-to-do",
+          "iconf":"fill-to-do",
+          "type": "link",
+          "active": false
+        },
       //   {
       //     "path": "/dashboard/ecommerce",
       //     "title": "Ecommerce",
@@ -44,8 +52,10 @@ export var menuItems={
       //     "type": "link",
       //     "active":false
       //   }
-      // ]
+      ]
     },
+
+
     // {
     //   "title": "Widgets",
     //   "icon": "stroke-widget",

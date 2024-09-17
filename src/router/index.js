@@ -216,6 +216,11 @@ import Calendar from "../pages/calenderView.vue"
 import socialPage from "../pages/socialApp/socialApp.vue"
 // todo
 import Todo from "../pages/todo/index.vue"
+
+
+// about page
+import AboutView from "@/views/AboutView.vue";
+
 const routes = [
     {
         path: '/',
@@ -230,9 +235,19 @@ const routes = [
               title: ' Cuba - Premium Admin Template',
             }
           },
+          {
+            path: 'about',
+            name: 'about',
+            component: AboutView,
+            meta: {
+              title: 'About Page',
+            }
+
+          }
     
         ]
       },
+
     {
         path: '/dashboard',
         component: Body,
