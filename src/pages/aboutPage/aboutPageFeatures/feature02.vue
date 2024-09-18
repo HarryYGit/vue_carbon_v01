@@ -13,12 +13,9 @@
                 </div>
             </template>
             <template v-slot:with-padding>
-                <h6>UI Design</h6>
+                <h6>Innovations Driving a Low-Carbon Economy</h6>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus.
+                    This article focuses on the industrial sector, one of the largest sources of global carbon emissions. It explores innovative technologies and practices, such as carbon capture and storage (CCS), energy efficiency improvements, and the use of green hydrogen in manufacturing processes. The article also highlights the role of circular economy principles, recycling, and sustainable material sourcing in reducing industrial carbon footprints. By showcasing examples from leading companies, it illustrates how industries can transition to a low-carbon economy while maintaining profitability and competitiveness.
                 </p>
             </template>
             <template v-slot:footer>
@@ -42,12 +39,9 @@
                 </div>
             </template>
             <template v-slot:with-padding>
-                <h6>UX Design</h6>
+                <h6>Carbon Emission Reduction Strategies in Transportation</h6>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus.
+                    Focusing on the transportation sector, this article examines how electric vehicles (EVs) and other sustainable technologies are reshaping the future of mobility. It discusses the benefits of EVs in cutting emissions, the development of hydrogen-powered vehicles, and the importance of improving public transportation systems. The article also touches on carbon offset programs, urban planning for greener cities, and the need for infrastructure investments to support the growing demand for alternative fuel vehicles.
                 </p>
             </template>
             <template v-slot:footer>

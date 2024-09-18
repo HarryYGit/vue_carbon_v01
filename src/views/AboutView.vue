@@ -1,7 +1,7 @@
 <template >
   <div class="about">
 
-    <aboutKnowledgeBase setTitle="About" />
+    <aboutKnowledgeBase setTitle="Articles" />
     
   </div>
   

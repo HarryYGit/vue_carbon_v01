@@ -21,8 +21,8 @@ export var menuItems={
           "active":false
         },
         {
-          "path": "/about",
-          "title": "About",
+          "path": "/articles",
+          "title": "Articles",
           "icon": "stroke-to-do",
           "iconf":"fill-to-do",
           "type": "link",

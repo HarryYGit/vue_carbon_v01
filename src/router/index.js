@@ -236,11 +236,11 @@ const routes = [
             }
           },
           {
-            path: 'about',
-            name: 'about',
+            path: 'articles',
+            name: 'articles',
             component: AboutView,
             meta: {
-              title: 'About Page',
+              title: 'Articles',
             }
 
           }

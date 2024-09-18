@@ -18,12 +18,9 @@
                         </div>
                     </template>
                     <template v-slot:with-padding>
-                        <h6>Web Design</h6>
+                        <h6>The Global Impact of Carbon Emissions</h6>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                            natoque penatibus et magnis dis parturient montes, nascetur
-                            ridiculus mus.
+                            This article delves into the pressing issue of global carbon emissions and their detrimental effects on the environment. It highlights key contributors like the burning of fossil fuels, deforestation, and industrial processes, all of which drive climate change. The article also explores potential solutions such as transitioning to renewable energy, carbon capture technology, and adopting eco-friendly policies. It emphasizes the role of global cooperation and individual action in mitigating emissions to achieve a sustainable future.
                         </p>
                     </template>
                     <template v-slot:footer>
@@ -47,12 +44,9 @@
                         </div>
                     </template>
                     <template v-slot:with-padding>
-                        <h6>Web Development</h6>
+                        <h6>The Future of Clean Energy</h6>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                            natoque penatibus et magnis dis parturient montes, nascetur
-                            ridiculus mus.
+                            This article explores the pivotal role of renewable energy sources such as solar, wind, hydro, and geothermal power in reducing carbon footprints globally. It discusses advancements in technology that make these energy sources more viable, scalable, and affordable. Furthermore, it assesses the transition away from fossil fuels and the challenges faced by industries and governments in adopting clean energy. The article concludes by underscoring the importance of innovation and global policy support in fostering a carbon-neutral energy future.
                         </p>
                     </template>
                     <template v-slot:footer>
