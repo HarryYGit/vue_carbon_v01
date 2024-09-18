@@ -2,12 +2,17 @@
     <Breadcrumbs title="Basic table" main="Bootstrap Table" />
     <div class="container-fluid basic_table">
             <div class="row">
-            <basicTable/>
-            <inverseTable/>
-            <hoverableRows/>
-            <backgroundUtilities/>
+                <!-- basic table with border bottom color -->
+            <!-- <basicTable/> -->
+
+
+            <!-- <inverseTable/> -->
+
+
+            <!-- <hoverableRows/> -->
+            <!-- <backgroundUtilities/> -->
             <tableHead/>
-            <stripedRow/>
+            <!-- <stripedRow/> -->
       
             </div>
             </div>

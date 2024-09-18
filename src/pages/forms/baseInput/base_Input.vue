@@ -5,7 +5,7 @@
             <div class="row">
               <div class="col-sm-12">
                   <basicForm/>
-                  <basicHTML/>
+                  <!-- <basicHTML/> -->
                   <edgesInput/>
                   <flatInput/>
                   <raiseInput/>
