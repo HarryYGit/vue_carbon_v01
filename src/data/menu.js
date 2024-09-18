@@ -368,6 +368,14 @@ export var menuItems={
       "type": "link",
       "active": false
     },
+    {
+      "path": "/app/calculator",
+      "title": "Carbon-Calculator",
+      "icon": "stroke-to-do",
+      "iconf":"fill-to-do",
+      "type": "link",
+      "active": false
+    },
 
     // {
     //   "path": "/pages/search",

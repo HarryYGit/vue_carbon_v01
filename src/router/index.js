@@ -221,6 +221,9 @@ import Todo from "../pages/todo/index.vue"
 // about page
 import AboutView from "@/views/AboutView.vue";
 
+// carbon calculator
+import CarbonCalculator from "@/views/CarbonCalculator.vue";
+
 const routes = [
     {
         path: '/',
@@ -424,6 +427,15 @@ const routes = [
           path: 'todo',
           name: 'todo',
           component: Todo,
+           meta: {
+              title: 'Carbon Calculator | Cuba - Premium Admin Template',
+            }
+        },
+        // route for carbon calculator
+        {
+          path: 'calculator',
+          name: 'calculator',
+          component: CarbonCalculator,
            meta: {
               title: 'Todo | Cuba - Premium Admin Template',
             }
