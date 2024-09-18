@@ -1,13 +1,21 @@
 <template >
   <div class="about">
-    <knowledgeBase setTitle="About Page" />
+
+    <aboutKnowledgeBase setTitle="About" />
     
   </div>
   
 </template>
 
-<script setup>
-import knowledgeBase from '@/pages/Knowledgebase/index.vue';
+<script>
+
+import aboutKnowledgeBase from '@/pages/aboutPage/aboutKnowledgeBase.vue';
+
+export default {
+  components:{
+    aboutKnowledgeBase
+  }
+}
 
 
 </script>
@@ -15,11 +23,5 @@ import knowledgeBase from '@/pages/Knowledgebase/index.vue';
 
 
 <style scoped>
-/* @media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-} */
+
 </style>
