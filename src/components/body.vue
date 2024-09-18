@@ -18,7 +18,7 @@
         </div>
         <Footer />
       </div>
-      <Customizer />
+      <!-- <Customizer /> -->
       <TapTop />
     </div>
 
