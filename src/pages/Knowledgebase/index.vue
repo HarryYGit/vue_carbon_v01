@@ -1,30 +1,34 @@
 <template>
   <div>
+
+    <!-- modify page title -->
     <Breadcrumbs main="app" :title="setTitle"/>
 
     <div class="container-fluid knowledgebase-page">
       <div class="row">
         <div class="col-12">
-          <div class="knowledgebase-bg">
+          <!-- <div class="knowledgebase-bg">
             <img class="bg-img-cover bg-center " src="../../assets/images/knowledgebase/bg_1.jpg" alt="looginpage" />
-          </div>
-          <div class="knowledgebase-search">
-            <div>
-              <h3>How Can I help you?</h3>
-              <form class="form-inline" action="#" method="get">
+          </div> -->
+          <!-- <div class="knowledgebase-search">
+            <div> -->
+              <!-- <h3>How Can I help you?</h3> -->
+
+              <!-- search button -->
+              <!-- <form class="form-inline" action="#" method="get">
                 <div class="form-group w-100">
                   <vue-feather type="search"></vue-feather>
                   <input class="form-control-plaintext w-100" type="text" placeholder="Type question here" title="" />
                 </div>
-              </form>
-            </div>
-          </div>
+              </form> -->
+            <!-- </div>
+          </div> -->
         </div>
         <articlesView />
-        <browseArticles />
+        <!-- <browseArticles /> -->
 
         <featuredTutorials />
-        <latestArticles />
+        <!-- <latestArticles /> -->
 
       </div>
     </div>
@@ -39,6 +43,8 @@ import browseArticles from "./browseArticles.vue"
 import featuredTutorials from "./featuredTutorials.vue"
 import latestArticles from "./latestArticles.vue"
 export default {
+
+  // Get receive page title from parent comp
   props:{
     setTitle: String
   },
