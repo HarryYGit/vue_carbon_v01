@@ -7,8 +7,9 @@
         
         <div class="card-block row">
           <div class="col-sm-12 col-lg-12 col-xl-12">
+            
             <div class="table-responsive">
-              <button @click="fetchHistory" class="btn btn-primary m-r-10" type="submit">History</button>
+              
               <table class="table table-light">
                 <thead>
                   <tr>
@@ -47,44 +48,25 @@
 
   <script>
 
-  import VueAxios from 'vue-axios';
   import { mapState } from 'vuex';
-
- 
-
 
   export default {
 
-    
-
     data(){
       return {
-
-        history: []
 
       }
     },
 
     methods: {
-      async fetchHistory(){
 
-        try {
-
-          const response = await this.axios.get(`http://127.0.0.1:8000/api/tasks/`);
-          this.history = response.data;
-
-        } catch (error) {
-          console.log("fetch history error: ", error);
-          
-        }
-
-      }
     },
 
-
-   
-
-
+    props:{
+      history:{
+        type: Array
+      }
+    },
 
     computed: {
       ...mapState({

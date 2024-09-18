@@ -21,13 +21,13 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(item, index) in Responsive" :key="index">
+                  <tr>
 
-                    <td>{{ item.distance }} </td>
-                    <td>{{ item.mpg }}</td>
-                    <td>{{ item.afec }}</td>
-                    <td>{{ item.emission_factor }} </td>
-                    <td>{{ item.result }}</td>
+                    <td>{{ form.distance }} </td>
+                    <td>{{ form.mpg }}</td>
+                    <td>{{ form.afec }}</td>
+                    <td>{{ form.emission_factor }} </td>
+                    <td>{{ result }}</td>
 
                   </tr>
                 </tbody>
@@ -45,11 +45,26 @@
   <script>
   import { mapState } from 'vuex';
   export default {
+
+   
+
+
     computed: {
       ...mapState({
         sizing: state => state.bootsrap.sizingTablesXl,
         Responsive: state => state.bootsrap.Responsive,
       })
     },
+
+    props: {
+        result: {
+            type: Number
+        },
+
+        form: {
+            type: String
+        }
+
+    }
   }
   </script>
