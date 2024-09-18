@@ -20,9 +20,22 @@
         mixLayout: 'light-only',
       };
     },
+    created(){
+      // check saved layout mode in localStorage
+      const savedLayout = localStorage.getItem('mixLayout');;
+      if (savedLayout) {
+        this.mixLayout = savedLayout;
+        this.$store.dispatch('layout/setLayout', { class: savedLayout});
+      }
+
+    },
     methods: {
       customizeMixLayout(val) {
         this.mixLayout = val;
+
+        // save the chosen layout mode in localStorage
+        localStorage.setItem('mixLayout', val);
+
         this.$store.dispatch('layout/setLayout', {class:val});
       },
     },
