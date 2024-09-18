@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Breadcrumbs main="app" title="Knowledge Base" />
+    <Breadcrumbs main="app" :title="setTitle"/>
 
     <div class="container-fluid knowledgebase-page">
       <div class="row">
@@ -39,6 +39,9 @@ import browseArticles from "./browseArticles.vue"
 import featuredTutorials from "./featuredTutorials.vue"
 import latestArticles from "./latestArticles.vue"
 export default {
+  props:{
+    setTitle: String
+  },
   components: {
     'px-card': pxcard, articlesView, browseArticles, featuredTutorials, latestArticles
   },
