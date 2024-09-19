@@ -62,7 +62,7 @@
         },
 
         form: {
-            type: String
+            type: Object
         }
 
     }

@@ -86,7 +86,8 @@
                     },
 
                     result: 0,
-                    history: []
+                    history: [],
+
 
                 }
             },
@@ -98,10 +99,26 @@
                     try {
                         const response = await this.axios.post(`http://127.0.0.1:8000/api/tasks/`, this.form);
                         this.result = response.data;
+
+
+                        this.fetchHistory();
+
+                        this.resetForm();
+
                     } catch (error) {
                         console.error(error);
                     }
                 },
+
+                // Reset form after submission
+                    resetForm() {
+                      this.form = {
+                        distance: '',
+                        mpg: '',
+                        afec: '',
+                        emission_factor: 8.89, // Reset to default value if necessary
+                      };
+                    },
 
                 // GET request fetch history from server
                 async fetchHistory(){
