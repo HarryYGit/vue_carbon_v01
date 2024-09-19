@@ -50,18 +50,24 @@
           <div class="col-sm-9 offset-sm-3">
             <button class="btn btn-primary m-r-10" type="submit">Calculate</button>
             <input class="btn btn-light" type="reset" value="Cancel">
-            <button @click="fetchHistory" class="btn btn-primary m-r-10" type="submit">History</button>
+            
           </div>
         </div>
       </form>
+      
 
 
     </div>
 
     <resultTable :result="result.result" :form="form" />
+    <div class="card-footer text-end">
+        <div class="col-sm-9 offset-sm-3">
+          <button @click="fetchHistory" class="btn btn-primary m-r-10" type="submit">History</button>
+        </div>
+    </div>
     <historyTable :history="history" />
     
-
+    
   </template>
 
   <script>
