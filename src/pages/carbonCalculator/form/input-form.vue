@@ -65,7 +65,7 @@
           <button @click="fetchHistory" class="btn btn-primary m-r-10" type="submit">History</button>
         </div>
     </div>
-    <historyTable :history="history" />
+    <historyTable :history="history" :refreshHistory="fetchHistory" />
     
     
   </template>
@@ -92,6 +92,7 @@
             },
             methods:{
 
+                // POST  submite input form to server
                 async calculateEmissions() {
 
                     try {
@@ -102,6 +103,7 @@
                     }
                 },
 
+                // GET request fetch history from server
                 async fetchHistory(){
 
                     try {
@@ -114,11 +116,18 @@
                     
                     }
 
-                }
+                },
+
+                
             },
             components: {
                 resultTable,
                 historyTable
+            },
+
+            
+            mounted() {
+              this.fetchHistory();
             }
         }
 
